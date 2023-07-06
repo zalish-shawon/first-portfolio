@@ -56,4 +56,75 @@ button {
     border: none;
     border-radius: 3px;
     color: white;
+    cursor: pointer;
+}
+.about {
+    padding-top: 20px;
+    text-align: center;
+}
+.title{
+    font-size: 54px;
+}
+.about-img {
+    width: 270px;
+    /* padding-top: 25px; */
+}
+.about-container {
+    display: flex;
+    padding: 25px;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.about {
+    margin:20px
+}
+.about-description {
+    margin-bottom: 15px;
+}
+
+.descriptions {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.service-container{
+    background-image: url("../images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    padding-bottom: 35px;
+}
+.icon {
+    width: 80px;
+    margin-top: 10px;
+}
+.service {
+    font-size: 55px;
+    padding: 15px;
+    text-align: center;
+}
+.product {
+    background-color: rgba(71, 70, 70, 0.39);
+    box-shadow: 2px 5px 5px gray ;
+    border: 1px solid black;
+    outline: none;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 15%;
+    
+}
+.product-container {
+    display: flex;
+    justify-content: space-around;
+}
+.service-btn {
+    margin-top: 20px;
+    padding: 13px 20px;
+    outline: none;
+    background-color: black;
+    border: none;
+    
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
 }
