@@ -141,24 +141,48 @@ button {
 .product:hover {
     background-color: #2C3333;
 }
-.footer-container {
+.footer-bgc {
     background-color: #060606;
+    padding-top: 25px;
+}
+.footer-container {
+    
     color: white;
     display: flex;
     justify-content: space-around;
     padding: 35px;
-    height: 300px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
 }
 .footer-li {
     list-style: none;
     margin-top: 10px;
+    font-size: 14px;
 }
 .footer-para {
     color: white;
     margin-top: 10px;
 }
 .col-1 {
-    width: 17%;
+    width: 23%;
     font-size: 15px;
     
+}
+hr {
+    color: white;
+    width: 70%;
+    height: 0.5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+}
+
+.copyright-container p {
+    padding: 25px;
+    color: white;
+    text-align: center;
 }
